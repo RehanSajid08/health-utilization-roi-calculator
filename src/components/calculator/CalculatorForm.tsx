@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { useCalculator } from '@/contexts/CalculatorContext';
-import { ArrowLeft, ArrowRight, Activity, Users, DollarSign, Heart, AlertTriangle, HospitalSquare } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Activity, Users, DollarSign, Heart, AlertTriangle, Building } from 'lucide-react';
 
 const CalculatorForm: React.FC = () => {
   const { inputs, setInputs, setStep, calculateResults } = useCalculator();
@@ -77,7 +77,7 @@ const CalculatorForm: React.FC = () => {
           
           <div className="space-y-1">
             <label htmlFor="hospitalReadmissionRate" className="flex items-center font-medium text-zyter-darkgray">
-              <HospitalSquare className="h-4 w-4 mr-2 text-zyter-blue" />
+              <Building className="h-4 w-4 mr-2 text-zyter-blue" />
               Hospital Readmission Rate (%)
             </label>
             <input
