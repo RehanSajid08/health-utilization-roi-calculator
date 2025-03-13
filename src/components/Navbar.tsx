@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
         <div className="flex-shrink-0">
           <Link to="/">
             <img 
-              src="https://images.app.goo.gl/FGohKxRbgVPaJJFH7" 
+              src="https://zytertrucare.b-cdn.net/wp-content/uploads/2021/07/zyter-trucare-color-1-2.png" 
               alt="Zyter Logo" 
               className="h-8"
             />
