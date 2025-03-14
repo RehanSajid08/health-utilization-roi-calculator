@@ -18,6 +18,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/digital-health-readiness-assessor/', // Add this line
+  base: '/health-utilization-roi-calculator/', // Add this line
 }));
 
